@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Wallpapers</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Category_Fragment">Category Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="daily_popular_Fragment">Daily popular fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Recents_Fragment">Recents fragment</string>
+
+    <string name="facebook_app_id">........................</string>
+    <string name="facebook_login_protocol_scheme">.......................</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".UploadWallpaper">
+    
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:src="@drawable/ic_wallpaper"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"/>
+
+        <LinearLayout
+            android:layout_marginBottom="4dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnGallery"
+                android:text="Gallery"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:fButtonColor="@android:color/black"
+                app:shadowColor="#99F1E326"
+                app:shadowEnabled="true"
+                app:shadowHeight="4dp"
+                app:cornerRadius="4dp"
+                />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnUpload"
+                android:text="Upload"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:fButtonColor="@android:color/black"
+                app:shadowColor="#99F1E326"
+                app:shadowEnabled="true"
+                app:shadowHeight="4dp"
+                app:cornerRadius="4dp"
+                android:enabled="false"
+                />
+
+        </LinearLayout>
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSubmit"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:enabled="false"
+            app:fButtonColor="@android:color/black"
+            app:shadowColor="#99F1E326"
+            app:shadowEnabled="true"
+            app:shadowHeight="4dp"
+            app:cornerRadius="4dp"
+            />
+        
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
