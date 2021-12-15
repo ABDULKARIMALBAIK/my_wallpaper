@@ -1,4 +1,4 @@
-# My Wallpapaer App
+# My Wallpapaer
 
 Android project to add nice wallpaper to user's screen of mobile.
 
